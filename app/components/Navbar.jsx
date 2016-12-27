@@ -23,7 +23,7 @@ let Navbar = () => {
           </ul>
         </div>
       </div>
-  )
+  );
 }
 
 module.exports = Navbar;
