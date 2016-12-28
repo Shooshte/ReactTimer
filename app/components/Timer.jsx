@@ -30,9 +30,8 @@ let Timer = React.createClass ({
   },
   startTimer: function() {
     this.timer = setInterval(() => {
-      let newCount = this.state.count +1;
       this.setState({
-        count: newCount
+        count: this.state.count +1
       });
     }, 1000);
   },
